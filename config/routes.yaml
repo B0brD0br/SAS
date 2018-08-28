@@ -1,0 +1,9 @@
+read_data:
+    path: /api/show/
+    controller: SAS\Controller\CallDetailsReadController::readData
+    methods: [GET]
+
+insert_data:
+    path: /api/insert/
+    controller: SAS\Controller\CallDetailsInsertController::insertData
+    methods: [POST]
